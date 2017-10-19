@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AAAAA711D4F181D00E5E30E /* CalibrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAAAA701D4F181D00E5E30E /* CalibrationViewController.m */; };
+		8AE4AAA91D781303001A189F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4AAA81D781303001A189F /* MBProgressHUD.m */; };
+		F231537F1CAA39CD00173E36 /* BeaconSensorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F231537E1CAA39CD00173E36 /* BeaconSensorViewController.m */; };
+		F23153821CAA42E300173E36 /* BeaconSensorDataReceiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F23153811CAA42E300173E36 /* BeaconSensorDataReceiveViewController.m */; };
+		F24B5CCB1C59AA7100757876 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B5CCA1C59AA7100757876 /* main.m */; };
+		F24B5CCE1C59AA7100757876 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B5CCD1C59AA7100757876 /* AppDelegate.m */; };
+		F24B5CD11C59AA7100757876 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B5CD01C59AA7100757876 /* MainViewController.m */; };
+		F24B5CD41C59AA7100757876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24B5CD21C59AA7100757876 /* Main.storyboard */; };
+		F24B5CD61C59AA7100757876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24B5CD51C59AA7100757876 /* Assets.xcassets */; };
+		F24B5CD91C59AA7100757876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24B5CD71C59AA7100757876 /* LaunchScreen.storyboard */; };
+		F24B5CEF1C59AAA900757876 /* LinkingLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F24B5CEE1C59AAA900757876 /* LinkingLibrary.framework */; };
+		F24B5CF11C59CAC400757876 /* LinkingLibrary.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F24B5CEE1C59AAA900757876 /* LinkingLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2777DA71CA94CA9005BF430 /* BeaconIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2777DA61CA94CA9005BF430 /* BeaconIDViewController.m */; };
+		F2871FB11CA91D5700B1030B /* DeviceInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2871FB01CA91D5700B1030B /* DeviceInfoViewController.m */; };
+		F2EE80E91CA8CEA60091DAB9 /* UIViewController+ShowInformMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EE80E81CA8CEA60091DAB9 /* UIViewController+ShowInformMessage.m */; };
+		F2EE80EC1CA8E8B90091DAB9 /* RumblingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EE80EB1CA8E8B90091DAB9 /* RumblingViewController.m */; };
+		F2EE80EF1CA8ED4B0091DAB9 /* PairingSensorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EE80EE1CA8ED4B0091DAB9 /* PairingSensorViewController.m */; };
+		F2EE80F21CA8EDBB0091DAB9 /* SensorDataReceiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EE80F11CA8EDBB0091DAB9 /* SensorDataReceiveViewController.m */; };
+		F2EE80F51CA911DF0091DAB9 /* PairingButtonIDDataReceiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EE80F41CA911DF0091DAB9 /* PairingButtonIDDataReceiveViewController.m */; };
+		F2FF52251CA637E1004BCE45 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FF52241CA637E1004BCE45 /* SearchViewController.m */; };
+		F2FF52281CA64BEC004BCE45 /* SelectDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FF52271CA64BEC004BCE45 /* SelectDevice.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F24B5CF01C59CAB800757876 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F24B5CF11C59CAC400757876 /* LinkingLibrary.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8AAAAA6F1D4F181D00E5E30E /* CalibrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrationViewController.h; sourceTree = "<group>"; };
+		8AAAAA701D4F181D00E5E30E /* CalibrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrationViewController.m; sourceTree = "<group>"; };
+		8AE4AAA71D781303001A189F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		8AE4AAA81D781303001A189F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		8AE8EAC11DA7391B000D416D /* LinkingIFDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LinkingIFDemo.entitlements; sourceTree = "<group>"; };
+		F231537D1CAA39CD00173E36 /* BeaconSensorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconSensorViewController.h; sourceTree = "<group>"; };
+		F231537E1CAA39CD00173E36 /* BeaconSensorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconSensorViewController.m; sourceTree = "<group>"; };
+		F23153801CAA42E300173E36 /* BeaconSensorDataReceiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconSensorDataReceiveViewController.h; sourceTree = "<group>"; };
+		F23153811CAA42E300173E36 /* BeaconSensorDataReceiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconSensorDataReceiveViewController.m; sourceTree = "<group>"; };
+		F249D33D1CAA65FB003E8BB6 /* LinkingIFDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkingIFDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24B5CCA1C59AA7100757876 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F24B5CCC1C59AA7100757876 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F24B5CCD1C59AA7100757876 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F24B5CCF1C59AA7100757876 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F24B5CD01C59AA7100757876 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F24B5CD31C59AA7100757876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F24B5CD51C59AA7100757876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F24B5CD81C59AA7100757876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F24B5CDA1C59AA7100757876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24B5CEE1C59AAA900757876 /* LinkingLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LinkingLibrary.framework; sourceTree = "<group>"; };
+		F2777DA51CA94CA9005BF430 /* BeaconIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconIDViewController.h; sourceTree = "<group>"; };
+		F2777DA61CA94CA9005BF430 /* BeaconIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconIDViewController.m; sourceTree = "<group>"; };
+		F2871FAF1CA91D5700B1030B /* DeviceInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfoViewController.h; sourceTree = "<group>"; };
+		F2871FB01CA91D5700B1030B /* DeviceInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoViewController.m; sourceTree = "<group>"; };
+		F2EE80E71CA8CEA60091DAB9 /* UIViewController+ShowInformMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ShowInformMessage.h"; sourceTree = "<group>"; };
+		F2EE80E81CA8CEA60091DAB9 /* UIViewController+ShowInformMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ShowInformMessage.m"; sourceTree = "<group>"; };
+		F2EE80EA1CA8E8B90091DAB9 /* RumblingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RumblingViewController.h; sourceTree = "<group>"; };
+		F2EE80EB1CA8E8B90091DAB9 /* RumblingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RumblingViewController.m; sourceTree = "<group>"; };
+		F2EE80ED1CA8ED4B0091DAB9 /* PairingSensorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PairingSensorViewController.h; sourceTree = "<group>"; };
+		F2EE80EE1CA8ED4B0091DAB9 /* PairingSensorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PairingSensorViewController.m; sourceTree = "<group>"; };
+		F2EE80F01CA8EDBB0091DAB9 /* SensorDataReceiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorDataReceiveViewController.h; sourceTree = "<group>"; };
+		F2EE80F11CA8EDBB0091DAB9 /* SensorDataReceiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensorDataReceiveViewController.m; sourceTree = "<group>"; };
+		F2EE80F31CA911DF0091DAB9 /* PairingButtonIDDataReceiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PairingButtonIDDataReceiveViewController.h; sourceTree = "<group>"; };
+		F2EE80F41CA911DF0091DAB9 /* PairingButtonIDDataReceiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PairingButtonIDDataReceiveViewController.m; sourceTree = "<group>"; };
+		F2FF52231CA637E1004BCE45 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		F2FF52241CA637E1004BCE45 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		F2FF52261CA64BEC004BCE45 /* SelectDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectDevice.h; sourceTree = "<group>"; };
+		F2FF52271CA64BEC004BCE45 /* SelectDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectDevice.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F24B5CC31C59AA7100757876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24B5CEF1C59AAA900757876 /* LinkingLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AAAAA6E1D4F17E600E5E30E /* Calibration */ = {
+			isa = PBXGroup;
+			children = (
+				8AAAAA6F1D4F181D00E5E30E /* CalibrationViewController.h */,
+				8AAAAA701D4F181D00E5E30E /* CalibrationViewController.m */,
+			);
+			name = Calibration;
+			sourceTree = "<group>";
+		};
+		8AE4AAA61D781303001A189F /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8AE4AAA71D781303001A189F /* MBProgressHUD.h */,
+				8AE4AAA81D781303001A189F /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		F249D33E1CAA678F003E8BB6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F24B5CCF1C59AA7100757876 /* MainViewController.h */,
+				F24B5CD01C59AA7100757876 /* MainViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		F249D33F1CAA67A3003E8BB6 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF52231CA637E1004BCE45 /* SearchViewController.h */,
+				F2FF52241CA637E1004BCE45 /* SearchViewController.m */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		F249D3401CAA685F003E8BB6 /* DeviceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				F2871FAF1CA91D5700B1030B /* DeviceInfoViewController.h */,
+				F2871FB01CA91D5700B1030B /* DeviceInfoViewController.m */,
+			);
+			name = DeviceInfo;
+			sourceTree = "<group>";
+		};
+		F249D3411CAA68A3003E8BB6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F249D33E1CAA678F003E8BB6 /* Main */,
+				F249D33F1CAA67A3003E8BB6 /* Search */,
+				F249D3471CAA69FD003E8BB6 /* Pairing */,
+				F249D3481CAA6A2E003E8BB6 /* Beacon */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F249D3421CAA6936003E8BB6 /* Rumbling */ = {
+			isa = PBXGroup;
+			children = (
+				F2EE80EA1CA8E8B90091DAB9 /* RumblingViewController.h */,
+				F2EE80EB1CA8E8B90091DAB9 /* RumblingViewController.m */,
+			);
+			name = Rumbling;
+			sourceTree = "<group>";
+		};
+		F249D3431CAA6951003E8BB6 /* PairingSensor */ = {
+			isa = PBXGroup;
+			children = (
+				F2EE80ED1CA8ED4B0091DAB9 /* PairingSensorViewController.h */,
+				F2EE80EE1CA8ED4B0091DAB9 /* PairingSensorViewController.m */,
+				F2EE80F01CA8EDBB0091DAB9 /* SensorDataReceiveViewController.h */,
+				F2EE80F11CA8EDBB0091DAB9 /* SensorDataReceiveViewController.m */,
+			);
+			name = PairingSensor;
+			sourceTree = "<group>";
+		};
+		F249D3441CAA69A1003E8BB6 /* ButtonID */ = {
+			isa = PBXGroup;
+			children = (
+				F2EE80F31CA911DF0091DAB9 /* PairingButtonIDDataReceiveViewController.h */,
+				F2EE80F41CA911DF0091DAB9 /* PairingButtonIDDataReceiveViewController.m */,
+			);
+			name = ButtonID;
+			sourceTree = "<group>";
+		};
+		F249D3451CAA69B6003E8BB6 /* BeaconID */ = {
+			isa = PBXGroup;
+			children = (
+				F2777DA51CA94CA9005BF430 /* BeaconIDViewController.h */,
+				F2777DA61CA94CA9005BF430 /* BeaconIDViewController.m */,
+			);
+			name = BeaconID;
+			sourceTree = "<group>";
+		};
+		F249D3461CAA69DA003E8BB6 /* BeaconSensor */ = {
+			isa = PBXGroup;
+			children = (
+				F231537D1CAA39CD00173E36 /* BeaconSensorViewController.h */,
+				F231537E1CAA39CD00173E36 /* BeaconSensorViewController.m */,
+				F23153801CAA42E300173E36 /* BeaconSensorDataReceiveViewController.h */,
+				F23153811CAA42E300173E36 /* BeaconSensorDataReceiveViewController.m */,
+			);
+			name = BeaconSensor;
+			sourceTree = "<group>";
+		};
+		F249D3471CAA69FD003E8BB6 /* Pairing */ = {
+			isa = PBXGroup;
+			children = (
+				F249D3401CAA685F003E8BB6 /* DeviceInfo */,
+				F249D3441CAA69A1003E8BB6 /* ButtonID */,
+				F249D3431CAA6951003E8BB6 /* PairingSensor */,
+				F249D3421CAA6936003E8BB6 /* Rumbling */,
+			);
+			name = Pairing;
+			sourceTree = "<group>";
+		};
+		F249D3481CAA6A2E003E8BB6 /* Beacon */ = {
+			isa = PBXGroup;
+			children = (
+				F249D3451CAA69B6003E8BB6 /* BeaconID */,
+				F249D3461CAA69DA003E8BB6 /* BeaconSensor */,
+			);
+			name = Beacon;
+			sourceTree = "<group>";
+		};
+		F249D3491CAA6A90003E8BB6 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF52261CA64BEC004BCE45 /* SelectDevice.h */,
+				F2FF52271CA64BEC004BCE45 /* SelectDevice.m */,
+				F2EE80E71CA8CEA60091DAB9 /* UIViewController+ShowInformMessage.h */,
+				F2EE80E81CA8CEA60091DAB9 /* UIViewController+ShowInformMessage.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		F24B5CBD1C59AA7100757876 = {
+			isa = PBXGroup;
+			children = (
+				F24B5CEE1C59AAA900757876 /* LinkingLibrary.framework */,
+				F24B5CC81C59AA7100757876 /* LinkingIFDemo */,
+				F249D33D1CAA65FB003E8BB6 /* LinkingIFDemo.app */,
+			);
+			sourceTree = "<group>";
+		};
+		F24B5CC81C59AA7100757876 /* LinkingIFDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8AE8EAC11DA7391B000D416D /* LinkingIFDemo.entitlements */,
+				8AE4AAA61D781303001A189F /* MBProgressHUD */,
+				F24B5CCC1C59AA7100757876 /* AppDelegate.h */,
+				F24B5CCD1C59AA7100757876 /* AppDelegate.m */,
+				F24B5CD21C59AA7100757876 /* Main.storyboard */,
+				F249D3491CAA6A90003E8BB6 /* Util */,
+				F249D3411CAA68A3003E8BB6 /* Controller */,
+				8AAAAA6E1D4F17E600E5E30E /* Calibration */,
+				F24B5CD51C59AA7100757876 /* Assets.xcassets */,
+				F24B5CD71C59AA7100757876 /* LaunchScreen.storyboard */,
+				F24B5CDA1C59AA7100757876 /* Info.plist */,
+				F24B5CC91C59AA7100757876 /* Supporting Files */,
+			);
+			path = LinkingIFDemo;
+			sourceTree = "<group>";
+		};
+		F24B5CC91C59AA7100757876 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F24B5CCA1C59AA7100757876 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F24B5CC51C59AA7100757876 /* LinkingIFDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24B5CE81C59AA7100757876 /* Build configuration list for PBXNativeTarget "LinkingIFDemo" */;
+			buildPhases = (
+				F24B5CC21C59AA7100757876 /* Sources */,
+				F24B5CC31C59AA7100757876 /* Frameworks */,
+				F24B5CC41C59AA7100757876 /* Resources */,
+				F24B5CF01C59CAB800757876 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkingIFDemo;
+			productName = "Linking-SampleProject";
+			productReference = F249D33D1CAA65FB003E8BB6 /* LinkingIFDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F24B5CBE1C59AA7100757876 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LinkingLibrary;
+				TargetAttributes = {
+					F24B5CC51C59AA7100757876 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeamName = "耕太郎 鈴木 (Personal Team)";
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Siri = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F24B5CC11C59AA7100757876 /* Build configuration list for PBXProject "LinkingIFDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F24B5CBD1C59AA7100757876;
+			productRefGroup = F24B5CBD1C59AA7100757876;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F24B5CC51C59AA7100757876 /* LinkingIFDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F24B5CC41C59AA7100757876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24B5CD91C59AA7100757876 /* LaunchScreen.storyboard in Resources */,
+				F24B5CD61C59AA7100757876 /* Assets.xcassets in Resources */,
+				F24B5CD41C59AA7100757876 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F24B5CC21C59AA7100757876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EE80EF1CA8ED4B0091DAB9 /* PairingSensorViewController.m in Sources */,
+				F2EE80E91CA8CEA60091DAB9 /* UIViewController+ShowInformMessage.m in Sources */,
+				F24B5CD11C59AA7100757876 /* MainViewController.m in Sources */,
+				F2871FB11CA91D5700B1030B /* DeviceInfoViewController.m in Sources */,
+				F2FF52281CA64BEC004BCE45 /* SelectDevice.m in Sources */,
+				F24B5CCE1C59AA7100757876 /* AppDelegate.m in Sources */,
+				F23153821CAA42E300173E36 /* BeaconSensorDataReceiveViewController.m in Sources */,
+				8AE4AAA91D781303001A189F /* MBProgressHUD.m in Sources */,
+				F231537F1CAA39CD00173E36 /* BeaconSensorViewController.m in Sources */,
+				F2FF52251CA637E1004BCE45 /* SearchViewController.m in Sources */,
+				F2777DA71CA94CA9005BF430 /* BeaconIDViewController.m in Sources */,
+				F2EE80EC1CA8E8B90091DAB9 /* RumblingViewController.m in Sources */,
+				F2EE80F21CA8EDBB0091DAB9 /* SensorDataReceiveViewController.m in Sources */,
+				8AAAAA711D4F181D00E5E30E /* CalibrationViewController.m in Sources */,
+				F2EE80F51CA911DF0091DAB9 /* PairingButtonIDDataReceiveViewController.m in Sources */,
+				F24B5CCB1C59AA7100757876 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F24B5CD21C59AA7100757876 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F24B5CD31C59AA7100757876 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F24B5CD71C59AA7100757876 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F24B5CD81C59AA7100757876 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F24B5CE61C59AA7100757876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F24B5CE71C59AA7100757876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F24B5CE91C59AA7100757876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/LinkingIFDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nttdocomo.LinkingIFDemo;
+				PRODUCT_NAME = LinkingIFDemo;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F24B5CEA1C59AA7100757876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/LinkingIFDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nttdocomo.LinkingIFDemo;
+				PRODUCT_NAME = LinkingIFDemo;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F24B5CC11C59AA7100757876 /* Build configuration list for PBXProject "LinkingIFDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24B5CE61C59AA7100757876 /* Debug */,
+				F24B5CE71C59AA7100757876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24B5CE81C59AA7100757876 /* Build configuration list for PBXNativeTarget "LinkingIFDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24B5CE91C59AA7100757876 /* Debug */,
+				F24B5CEA1C59AA7100757876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F24B5CBE1C59AA7100757876 /* Project object */;
+}
